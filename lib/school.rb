@@ -31,7 +31,7 @@ def sort
 
 hash = @roster.each do |keys, ary|
 
-  keys[ary].sort
+  keys[ary]
 
 end
 hash.to_h
