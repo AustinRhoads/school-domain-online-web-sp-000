@@ -31,5 +31,6 @@ def sort
   hash = @roster.each {|keys, ary| ary.sort}
 
 hash
-  end
+end
+  
 end
