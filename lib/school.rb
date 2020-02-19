@@ -29,7 +29,7 @@ end
 
 def sort
 
-hash = @roster.each do |keys, ary|
+hash = @roster.map do |keys, ary|
 
   ary = ary.sort
 
