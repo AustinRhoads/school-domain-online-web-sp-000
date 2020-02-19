@@ -34,7 +34,7 @@ hash = @roster.each do |keys|
   keys.sort
 
 end
-hash.to_h
+hash
 end
 
 end
