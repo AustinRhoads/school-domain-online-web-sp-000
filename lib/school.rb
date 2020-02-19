@@ -29,7 +29,7 @@ end
 
 def sort
   hash = @roster.each do |keys|
-      keys.each {|ary|  ary.sort}
+      keys.each {|key, ary|  ary.sort}
       end
 hash
   end
