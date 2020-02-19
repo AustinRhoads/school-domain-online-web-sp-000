@@ -29,9 +29,9 @@ end
 
 def sort
 
-hash = @roster.each do |keys, ary|
+hash = @roster.each do |keys|
 
-  keys[ary]
+  keys.each {|a, b| b.sort}
 
 end
 hash.to_h
