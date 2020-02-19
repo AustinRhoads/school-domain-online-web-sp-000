@@ -28,7 +28,7 @@ return @roster[num]
 end
 
 def sort
-  hash = @roster.each {|keys, ary| @roster[key = ]ary.sort}
+  hash = @roster.each {|keys, ary| @roster[key] = ary.sort}
 
 hash
 end
